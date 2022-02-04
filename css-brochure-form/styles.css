@@ -1,0 +1,49 @@
+body {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+}
+
+h2 {
+  text-align: center;
+  color: rgb(234 87 88);
+}
+
+.item {
+  padding: 5px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item > label {
+  padding-left: 10px;
+}
+
+.box-item {
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  border: 1.5px solid lightgrey;
+  padding-left: 10px;
+}
+
+select {
+  background-color: rgb(243 243 243);
+}
+
+select.box-item {
+  color: black;
+}
+
+button {
+  background-color: rgb(234 87 88);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1.5px solid lightgrey;
+  float: right;
+}
