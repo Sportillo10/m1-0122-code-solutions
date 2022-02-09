@@ -1,0 +1,40 @@
+body {
+  /* stylelint-disable-next-line font-family-name-quotes */
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  background-color: rgb(71 148 212);
+  color: white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+section {
+  display: flex;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column-thirds {
+  flex-basis: calc(100% / 3);
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.img-container {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
