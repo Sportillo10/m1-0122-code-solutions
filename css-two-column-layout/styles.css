@@ -1,0 +1,49 @@
+* {
+  font-family: Karla, sans-serif;
+}
+
+.head {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.head > h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+p {
+  color: gray;
+  line-height: 1.6;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  padding: 10px 50px;
+}
+
+.card {
+  display: flex;
+  width: calc(85% / 2);
+}
+
+img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  border-color: orangered;
+  color: orangered;
+  padding: 7px 25px;
+}
