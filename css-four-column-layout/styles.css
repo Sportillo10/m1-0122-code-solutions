@@ -9,25 +9,25 @@ h2 {
   text-align: center;
 }
 
-.img-container {
+.row {
+  display: flex;
+}
+
+.img-column {
   padding: 0 20px;
 }
 
-.img-container img {
+.img-column img {
   height: auto;
   width: 200px;
 }
 
-.icon {
-  display: flex;
-}
-
-.icon-container {
+.icon-column {
   text-align: center;
 }
 
-.icon-container img {
-  height: 50px;
+.icon-column img {
+  height: auto;
   width: 50px;
 }
 
