@@ -13,11 +13,11 @@ h2 {
   display: flex;
 }
 
-.img-column {
+.column-fourth {
   padding: 0 20px;
 }
 
-.img-column img {
+.column-fourth img {
   height: auto;
   width: 200px;
 }
