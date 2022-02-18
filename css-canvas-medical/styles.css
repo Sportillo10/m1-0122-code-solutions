@@ -1,0 +1,185 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto 15px;
+  width: 85%;
+  font-family: Avenir, sans-serif;
+}
+
+.logo {
+  padding: 0;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav-items > li {
+  list-style-type: none;
+}
+
+.nav-items li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+#contact-button {
+  background-color: rgb(42 67 100);
+  color: white;
+  border-radius: 5px;
+}
+
+.container {
+  background-image:
+    linear-gradient(0deg, rgb(141 141 141 / 30%), rgb(141 141 141 / 30%)),
+    url("images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 60px auto;
+  width: 90%;
+}
+
+.hero-text {
+  color: white;
+  padding: 50px;
+  width: 55%;
+  font-family: Avenir, sans-serif;
+}
+
+.hero-text > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.get-started-button {
+  background-color: rgb(42 67 100);
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  width: 190px;
+  border-radius: 5px;
+}
+
+.location {
+  background-color: rgb(245 245 245);
+  color: rgb(112 112 112);
+  margin: 0;
+  padding: 30px;
+}
+
+.head {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto 70px;
+}
+
+.head > h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-family: Avenir, sans-serif;
+}
+
+.head > p {
+  line-height: 30px;
+  font-family: Avenir, sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-family: Avenir, sans-serif;
+}
+
+.body {
+  padding: 10px 150px;
+}
+
+.learn-more {
+  color: rgb(112 112 112);
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 50px 5px;
+  padding: 0 50px;
+}
+
+.gray-footer {
+  background-color: rgb(82 83 81);
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  color: white;
+  margin-bottom: 0;
+  height: 300px;
+  font-family: Avernir, sans-serif;
+}
+
+.footer-item-two-thirds {
+  flex-grow: 4;
+  padding: 0;
+}
+
+.footer-item-one-third {
+  flex-grow: 2;
+}
+
+.footer-item-two-thirds .logo {
+  padding-bottom: 15px;
+  height: 40px;
+}
+
+.footer-item-two-thirds p {
+  line-height: 70%;
+}
+
+.gray-footer li a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  line-height: 150%;
+}
+
+.gray-footer ul {
+  padding: 0;
+}
+
+.gray-footer li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.privacy {
+  background-color: rgb(245 245 245);
+  padding: 40px;
+}
+
+.privacy ul {
+  text-decoration: none;
+  display: flex;
+  text-indent: 10px;
+}
+
+.privacy li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.privacy li a {
+  list-style: none;
+  text-decoration: none;
+  color: dimgray;
+  font-family: Avenir, sans-serif;
+}
