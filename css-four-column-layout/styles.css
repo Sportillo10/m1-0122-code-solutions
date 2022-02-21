@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  background-color: rgb(246 247 249);
+}
+
+h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column-fourth {
+  padding: 0 20px;
+}
+
+.column-fourth img {
+  height: auto;
+  width: 200px;
+}
+
+.icon-column {
+  text-align: center;
+}
+
+.icon-column img {
+  height: auto;
+  width: 50px;
+}
+
+.text h3 {
+  padding-bottom: 10px;
+}
+
+.text p {
+  font-family: Barlow, sans-serif;
+  font-size: 12px;
+}
