@@ -1,0 +1,29 @@
+* {
+  /* stylelint-disable-next-line font-family-name-quotes */
+  font-family: DM Sans, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+img {
+  width: 15rem;
+  height: 20rem;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.fade {
+  color: rgb(209 208 209);
+}
+
+mark {
+  background-color: rgb(253 242 230);
+}
