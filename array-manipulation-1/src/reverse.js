@@ -1,8 +1,8 @@
 /* exported reverse */
 function reverse(array) {
-  var results = [];
+  var arr = [];
   for (var i = array.length - 1; i >= 0; i--) {
-    results.push(array[i]);
+    arr.push(array[i]);
   }
-  return results;
+  return arr;
 }
